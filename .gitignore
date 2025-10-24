@@ -1,0 +1,12 @@
+# Ignore prohibitively large raw fastq files (available on request)
+data/raw/**/*
+!data/raw/**/README.md #Keep readme
+
+# Ignore prohibitively large processed "good_reads" files (available on request)
+data/processed/**/good_reads/*
+!data/processed/**/good_reads/README.md #Keep readme
+
+# Ignore temporary/system files
+.DS_Store
+*.tmp
+
