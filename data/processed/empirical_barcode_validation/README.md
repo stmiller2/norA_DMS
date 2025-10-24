@@ -9,4 +9,4 @@ In this analysis, we ran test selections using a subset of the NorA library that
 - **[`scoring_figs/`](scoring_figs/)** : PNG images illustrating scoring QC like distribution of pre-selection libraries, correlation of variant frequencies between replicates, and correlation of functional scores between replicates.
 - **[`final_functional_scores/`](final_functional_scores/)** : Functional scores for each selection after merging replciates.
 
-Analysis scripts comparing barcode- and variant-derived functional scores can be found in Figure S1 of the paper (see relevant scripts [here](../../../scripts/04_analyses/supplementary/figS01_barcoding))
+Analysis scripts comparing barcode- and variant-derived functional scores can be found in Figure S1 of the paper (see relevant script [here](../../../scripts/04_analyses/supplementary/figS01_barcoding_plots.py) and results [here](../../../results/supplementary/figS01_barcoding))
