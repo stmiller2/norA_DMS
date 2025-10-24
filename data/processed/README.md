@@ -1,0 +1,1 @@
+Processed sequencing data for [barcoding the DMS library](barcoding/), [validating barcode-variant associations](empirical_barcode_validation/), and investigating the sequence determinants of [specificity](specificity/) and [energy efficiency](efficiency/) of NorA.
