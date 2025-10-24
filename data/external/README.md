@@ -10,9 +10,9 @@ Used for [calculating residue distances](../../scripts/04_analyses/general/compu
 - **`norA_AF.pdb`** : NorA structural model predicted by alphafold (inward-open conformation).
 #### ΔΔG scanning data:
 Rosetta modeling output for full DMS [ΔΔG scans](../../scripts/04_analyses/rosetta_ddG_pipeline/), used for predicting variant stability to identify potential functional hotspots. Scanning was performed in all conformations to differentiate stability mutants (unstable in all conformations) from conformational dynamics mutants (stable, but unable to access some conformations).
-- **`7lo8_ddG_results.csv`** : Outward-open ΔΔG scan
-- **`9b3m_ddG_results.csv`** : Inward-open ΔΔG scan
-- **`9b3l_ddG_results.csv`** : Occluded ΔΔG scan
+- **`7lo8_ddG_results.csv`** : Outward-open ΔΔG scan summary 
+- **`9b3m_ddG_results.csv`** : Inward-open ΔΔG scan summary
+- **`9b3l_ddG_results.csv`** : Occluded ΔΔG scan summary
 > Full scanning data (e.g., Rosetta files for individual mutations) are too large to host here and are available on request.
 - **`computational_stability.csv`** : Combined csv containing ΔΔG values for each conformation, predicted by both Rosetta and ThermoMPNN. See relevant analysis script [here](../../scripts/04_analyses/supplementary/figS13_hotspots_plots.py); Results are shown in [Supplementary Fig. S13](../../results/supplementary/figS13_hotspots/) and [Supplementary Table S2](../../results/supplementary/tableS02_hotspots/).
 #### Other data:
