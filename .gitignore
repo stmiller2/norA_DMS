@@ -1,10 +1,12 @@
 # Ignore prohibitively large raw fastq files (available on request)
 data/raw/**/*
-!data/raw/**/README.md #Keep readme
+!data/raw/**/ #preserve directory structure
+!data/raw/**/README.md #keep readme
 
 # Ignore prohibitively large processed "good_reads" files (available on request)
 data/processed/**/good_reads/*
-!data/processed/**/good_reads/README.md #Keep readme
+!data/processed/**/good_reads/ #preserve directory structure
+!data/processed/**/good_reads/README.md #keep readme
 
 # Ignore prohibitively large Rosetta ddG tarballs (available on request)
 data/external/9b3l_ddG_scan.tar.gz
