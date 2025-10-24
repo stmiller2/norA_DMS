@@ -1,4 +1,4 @@
-# Energetic and Structural Control of Polyspecificity in a Multidrug Transporter
+# Energetic and structural control of polyspecificity in a multidrug transporter
 
 This repository contains scripts and data for reproducing the analyses published in our PNAS publication *Energetic and structural control of polyspecificity in a multidrug transporter*.  
 
