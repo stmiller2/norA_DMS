@@ -1,12 +1,24 @@
 # Ignore prohibitively large raw fastq files (available on request)
-data/raw/**/*
-!data/raw/**/ #preserve directory structure
-!data/raw/**/README.md #keep readme
+data/raw/specificity/*
+data/raw/efficiency/*
+data/raw/barcoding/*
+data/raw/empirical_barcode_validation/*
+# Preserve readme's and directory structure
+!data/raw/specificity/README.md
+!data/raw/efficiency/README.md
+!data/raw/barcoding/README.md
+!data/raw/empirical_barcode_validation/README.md
 
 # Ignore prohibitively large processed "good_reads" files (available on request)
-data/processed/**/good_reads/*
-!data/processed/**/good_reads/ #preserve directory structure
-!data/processed/**/good_reads/README.md #keep readme
+data/processed/specificity/good_reads/*
+data/processed/efficiency/good_reads/*
+data/processed/barcoding/good_reads/*
+data/processed/empirical_barcode_validation/*
+# Preserve readme's and directory structure
+!data/processed/specificity/good_reads/README.md
+!data/processed/efficiency/good_reads/README.md
+!data/processed/barcoding/good_reads/README.md
+!data/processed/empirical_barcode_validation/README.md
 
 # Ignore prohibitively large Rosetta ddG tarballs (available on request)
 data/external/9b3l_ddG_scan.tar.gz
