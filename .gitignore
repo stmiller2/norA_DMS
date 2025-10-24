@@ -6,7 +6,13 @@ data/raw/**/*
 data/processed/**/good_reads/*
 !data/processed/**/good_reads/README.md #Keep readme
 
+# Ignore prohibitively large Rosetta ddG tarballs (available on request)
+data/external/9b3l_ddG_scan.tar.gz
+data/external/9b3m_ddG_scan.tar.gz
+data/external/7lo8_ddG_scan.tar.gz
+
 # Ignore temporary/system files
+scripts/00_utils/__pycache__/
 .DS_Store
 *.tmp
 
