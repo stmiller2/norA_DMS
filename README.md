@@ -1,7 +1,7 @@
 # Energetic and structural control of polyspecificity in a multidrug transporter
 
 This repository contains scripts and data for reproducing the analyses published in our PNAS publication *Energetic and structural control of polyspecificity in a multidrug transporter*.  
-If you use these scripts in your own research, please cite our publication: 
+If you use our scripts in your own research, please cite our publication: 
 > Miller, S. T., Henzler-Wildman, K. A. & Raman, S. Energetic and structural control of polyspecificity in a multidrug transporter. *bioRxiv* https://doi.org/10.1101/2025.04.09.647630 (2025) doi:10.1101/2025.04.09.647630.
 
 ## Directory Overview
