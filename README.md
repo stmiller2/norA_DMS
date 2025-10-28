@@ -24,7 +24,7 @@ Our high-throughput analyses are based on functional scores, which are calculate
    DNA barcodes are counted and summed to get the total number of observations for each library variant. Barcode-variant associations are determined in [`scripts/02_barcoding/`](scripts/02_barcoding/).  
 
 4. **Functional score calculation**  
-   Variant counts from pre- and post-selection samples are compared to compute functional scores. Data pertaining to specificity and efficiency analyses are processed and bundled into Python dictionaries, then exported as `.pk1` files for easy import into later analyses (see [`scripts/03_functional_scoring/`](scripts/03_functional_scoring/)).  
+   Variant counts from pre- and post-selection samples are compared to compute functional scores (see [`scripts/03_functional_scoring/`](scripts/03_functional_scoring/)). Data pertaining to specificity and efficiency analyses are processed and bundled into Python dictionaries, then exported as `.pk1` files for easy import into later analyses.
 
 5. **Analysis of functional scores**  
    Data are imported into figure-specific analysis scripts (see [`scripts/04_analyses/`](scripts/04_analyses/)). Depending on the analysis, additional data processing may occur here, such as normalization or filtering out datapoints with high error.  
