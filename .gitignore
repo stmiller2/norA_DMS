@@ -13,12 +13,12 @@ data/raw/empirical_barcode_validation/*
 data/processed/specificity/good_reads/*
 data/processed/efficiency/good_reads/*
 data/processed/barcoding/good_reads/*
-data/processed/empirical_barcode_validation/*
+data/processed/empirical_barcode_validation/good_reads/*
 # Preserve readme's and directory structure
 !data/processed/specificity/good_reads/README.md
 !data/processed/efficiency/good_reads/README.md
 !data/processed/barcoding/good_reads/README.md
-!data/processed/empirical_barcode_validation/README.md
+!data/processed/empirical_barcode_validation/good_reads/README.md
 
 # Ignore prohibitively large Rosetta ddG tarballs (available on request)
 data/external/9b3l_ddG_scan.tar.gz
