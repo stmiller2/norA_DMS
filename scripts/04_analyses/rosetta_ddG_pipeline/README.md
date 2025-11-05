@@ -1,7 +1,7 @@
 ## RosettaMP ΔΔG scanning pipeline
 
 This pipeline is based upon Raman lab scripts for soluble ΔΔG scans and [Tiemann 2023](https://doi.org/10.1016/j.bpj.2022.12.031) and is written for use on the HTCondor-based high-throughput computing environment available through the UW-Madison biochemistry department.
-Please see [`usage.txt`](usage.txt) for more detailed instructions on operating the pipeline. In short:
+Please see [`usage.txt`](usage.txt) for more detailed instructions on operating the pipeline, or visit the dedicated [GitHub repository](https://github.com/stmiller2/membrane_ddG_scan) for future updates. In short:
 
 1. The protein of interest is oriented in the membrane with the [PPM web server](https://opm.phar.umich.edu/ppm_server3_cgopm).
 2. [`./prep_inputs.sh`](prep_inputs.sh) cleans the PDB ([`scripts/clean_pdb3.py`](scripts/clean_pdb3.py)), generates a membrane spanfile (`scripts/spanfile_from_pdb.linuxgccrelease`), and energy-minimizes the structure with a cartesian fastrelax protocol (rosettascripts [`scripts/mp_cart_relax.xml`](scripts/mp_cart_relax.xml) using [`scripts/f19_cart_1.5.wts`](scripts/f19_cart_1.5.wts) weights)
